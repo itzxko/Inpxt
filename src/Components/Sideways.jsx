@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import Data from "../JSON/Scrollables.json";
-import { RiBriefcase2Line } from "react-icons/ri";
+import { BiMouseAlt } from "react-icons/bi";
 
 //importing icons
 import {
@@ -25,22 +25,23 @@ const Sideways = () => {
   };
 
   return (
-    <div className="flex items-center justify-center w-full overflow-hidden">
-      <div
-        className="flex flex-col items-start justify-center w-full lg:w-4/5 py-20 px-12 font-figtree antialiased"
-        id="works"
-      >
+    <div
+      className="flex items-center justify-center w-full overflow-hidden bg-[#FAF5FF]"
+      id="mice"
+    >
+      <div className="flex flex-col items-start justify-center w-full lg:w-4/5 pt-20 px-12 font-figtree antialiased">
         <div className="w-full flex-col">
           <div className="flex items-center justify-start gap-4 w-full">
             <div className="text-sm lg:text-xl p-3 text-white hover:text-[#2f2f2f] bg-[#2f2f2f] hover:bg-gray-200 ease-in-out duration-500 rounded-full flex items-center justify-center">
-              <RiBriefcase2Line />
+              <BiMouseAlt />
             </div>
             <div className="flex flex-col w-3/4">
               <p className="text-lg lg:text-2xl font-semibold truncate capitalize font-signika">
-                curated highlights of my works
+                Gaming and Productivity Mouse
               </p>
               <p className="font-figtree text-sm font-normal truncate lowercase">
-                Unveiling a selection of my finest work.
+                Unleash Your Potential: Explore Our Elite Collection of
+                Peripherals.
               </p>
             </div>
           </div>
@@ -60,7 +61,7 @@ const Sideways = () => {
                 <img
                   src={data.src}
                   alt="/"
-                  className="w-full object-cover object-center hover:scale-110 ease-in-out duration-500"
+                  className="w-full object-cover object-center hover:scale-110 ease-in-out duration-500 antialiased"
                 />
                 <div
                   className={
@@ -69,13 +70,13 @@ const Sideways = () => {
                       : "absolute w-full h-full bg-gradient-to-t from-black/5 via-black/10 to-black/20 pointer-events-none ease-in-out duration-500 "
                   }
                 ></div>
-                <div className="absolute w-full p-6">
+                <div className="absolute w-full p-6 pointer-events-none">
                   <div className="w-full">
                     <p className="font-semibold text-md text-white truncate capitalize">
                       {data.category}
                     </p>
                   </div>
-                  <div className="relative w-full py-2 flex items-start justify-center">
+                  <div className="relative w-full py-2 flex items-start justify-center pointer-events-none">
                     <div
                       className={
                         hoverIndex === index
@@ -83,7 +84,7 @@ const Sideways = () => {
                           : "absolute w-full left-[-200%] ease-in-out duration-500"
                       }
                     >
-                      <p className="text-sm font-figtree text-white font-normal line-clamp-3 lowercase">
+                      <p className="text-sm font-figtree text-white font-normal line-clamp-2 lowercase">
                         {data.desc}
                       </p>
                     </div>

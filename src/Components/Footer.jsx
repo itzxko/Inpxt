@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="w-full flex flex-col gap-4 items-start justify-center">
                 <div className="flex items-center justify-between w-full">
                   <p className="font-figtree font-semibold text-sm uppercase">
-                    Works
+                    Gaming and Productivity Mice
                   </p>
                   {works === false ? (
                     <IoCaretDown
@@ -67,7 +67,7 @@ const Footer = () => {
                 ))}
                 <div className="flex items-center justify-between w-full">
                   <p className="font-figtree font-semibold text-sm uppercase">
-                    Accessories
+                    Mechanical Keyboards
                   </p>
                   {accessories === false ? (
                     <IoCaretDown
