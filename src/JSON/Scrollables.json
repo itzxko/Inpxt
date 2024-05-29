@@ -1,38 +1,44 @@
 [
   {
     "id": 1,
-    "category": "tables",
-    "desc": "A good table holds a feast, a good conversation holds minds.",
-    "src": "https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?q=80&w=2054&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "category": "Keychron M3",
+    "price": 49.0,
+    "desc": "Keychron M3 has all the best features in a lightweight body that supports wireless 2.4 GHz and Bluetooth 5.1  wireless connection. It is ideal for any scenario, whether at work, gaming, or even on the go. It offers you the best performance and maximizes your productivity.M3 has the strongest, most competitive grade mouse sensor chip PAW3395, with up to 26,000 DPI, up to 650 IPS, and incomparable gripping precision. Whether for work or gaming, the M3 offers an unparallel experience.",
+    "src": "https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/keychronm3opticalmouse4-1661154359638.jpg?v=1661154363"
   },
   {
     "id": 2,
-    "category": "Chairs",
-    "desc": "silent witness to countless stories.",
-    "src": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=2118&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "category": "Keychron M3 Metal Edition",
+    "price": 99.0,
+    "desc": "Introducing the M3 mini Metal Edition, a wireless optical mouse armored with a premium casing crafted from state-of-the-art Magnesium material. Ultra-lightweight at only 64g, it boasts top-tier features such as the PAW 3395 sensor, a 4000 Hz polling rate chip, and more for the ultimate performance! It features an ergonomic curved shape and optimal weight-strength balance without any performance compromises, thus ensuring a comfortable grip for a long time.",
+    "src": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/M3-mini-4K-Metal-Edition-launch.jpg?v=1700123349"
   },
   {
     "id": 3,
-    "category": "Shelves",
-    "desc": "silent storytellers, holding whispers of the past.",
-    "src": "https://images.unsplash.com/photo-1581096316934-51283c9851ac?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "category": "Keychron M1",
+    "price": 45.0,
+    "desc": "Keychron M1 wireless mouse has all the best features in a lightweight body that supports wireless 2.4 GHz and Bluetooth 5.1  wireless connection. It is ideal for any scenario, whether it’s work, gaming, or even on the go. It offers you the best performance and maximizes your productivity. M1 wireless mouse has the strongest, most competitive grade mouse sensor chip PAW3395, with up to 26,000 DPI, up to 650 IPS, and incomparable gripping precision. Whether for work or gaming, the M1 offers an unparallel experience. Ergonomic curved design ensures a comfortable grip for a long time. The grip pattern design on both sides of the grip makes the gripping experience even better.",
+    "src": "https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/m1bottomhero1-1632832070875.jpeg?v=1632832081"
   },
   {
     "id": 4,
-    "category": "tabletops",
-    "desc": "Where stories unfold, one roll of the dice at a time.",
-    "src": "https://images.unsplash.com/photo-1678733405763-ecaf19dbccbe?q=80&w=2040&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "category": "Keychron M4",
+    "price": 49.0,
+    "desc": "WThe Keychron M4 mouse is a super-mini wireless mouse, measuring only 8.6 cm in length. Ultra-lightweight at 35g, it supports wireless 2.4 GHz and Bluetooth 5.1 connections, making it ideal for various scenarios, whether at work, gaming, or on the go. It offers top-tier performance to maximize productivity! The M4 adopts an extra-small shape, measuring only half the size of a standard mouse. Weighing in at an ultra-light 35g, it seamlessly combines lightness, portability, and flexibility. Easily controlled at your fingertips, it is suitable to couple with your tablet, laptop, or desktop.",
+    "src": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron-M4-wireless-mouse-photo-9.jpg?v=1700720128"
   },
   {
     "id": 5,
-    "category": "sofas",
-    "desc": "cradling life's laughter, tears, and everything in between.",
-    "src": "https://images.unsplash.com/photo-1518012312832-96aea3c91144?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "category": "Keychron M2 Mini",
+    "price": 49.0,
+    "desc": "Keychron M2 mini has all the best features in an ultra-lightweight body at only 50g. It supports wireless 2.4 GHz and Bluetooth 5.1 wireless connection, ideal for any scenario, whether at work, gaming, or on the go, and offers the best performance to maximize productivity! Super light and weighing at only 50g, it offers just the right amount of lightness, flexibility, and effortlessness to hold in your hand for extended use. Keychron Engine software allows you to do more personalization, modify keys, set shortcuts, and even your dedicated macros; you can also do professional settings for LOD, polling rate, DPI, etc.",
+    "src": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron-M2-mini-wireless-optical-mouse-3.jpg?v=1697437825"
   },
   {
     "id": 6,
-    "category": "cabinets",
-    "desc": "Silent guardians of our memories and the tools that fuel our lives",
-    "src": "https://images.unsplash.com/photo-1505015306469-3b734c70fea7?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "category": "Keychron M3 Mini",
+    "price": 49.0,
+    "desc": "Keychron M3 mini has all the best features in an ultra-lightweight body at only 55g. It supports wireless 2.4 GHz and Bluetooth 5.1 wireless connection, ideal for any scenario, whether at work, gaming, or on the go, and offers the best performance to maximize productivity! Super light and weighing at only 55 g, it offers just the right amount of lightness, flexibility, and effortlessness to hold in your hand for extended use. Precise sensors, extremely low latency wireless connectivity, and high polling rate give you the best performance for both office , gaming or even on the go.",
+    "src": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron-M3-Mini-White-13.jpg?v=1686381609"
   }
 ]

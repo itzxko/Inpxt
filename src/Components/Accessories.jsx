@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { RiCupLine } from "react-icons/ri";
+import { RxKeyboard } from "react-icons/rx";
 import accessories from "../JSON/Accessories.json";
 import {
   MdOutlineArrowBackIosNew,
@@ -23,18 +23,21 @@ const Accessories = () => {
   };
 
   return (
-    <div className="flex items-center justify-center w-full overflow-hidden">
+    <div
+      className="flex items-center justify-center w-full overflow-hidden bg-[#FAF5FF]"
+      id="keyboards"
+    >
       <div className="p-12 font-signika flex flex-col items-center justify-center w-full lg:w-4/5">
         <div className="flex items-center justify-start gap-4 w-full">
           <div className="text-xl p-3 text-white hover:text-[#2f2f2f] bg-[#2f2f2f] hover:bg-gray-200 ease-in-out duration-500 rounded-full flex items-center justify-center">
-            <RiCupLine />
+            <RxKeyboard />
           </div>
           <div className="flex flex-col w-3/4">
             <p className="text-lg lg:text-2xl text-md font-semibold font-signika truncate">
-              Furniture Accessories
+              Mechanical Keyboards
             </p>
             <p className="text-sm font-normal font-figtree lowercase truncate">
-              stylish add-ons for your furniture.
+              Showcasing Pinnacle Keyboards Engineered for Every Keystroke
             </p>
           </div>
         </div>
@@ -56,7 +59,7 @@ const Accessories = () => {
                   className="object-cover object-start h-full w-full hover:scale-110 ease-in-out duration-500"
                 />
                 <div className="absolute bg-gradient-to-t from-black/10 via-black/0 to-black/50 w-full h-full pointer-events-none"></div>
-                <div className="w-full absolute capitalize top-0 text-start p-6">
+                <div className="w-full absolute capitalize top-0 text-start p-6 pointer-events-none">
                   <p className="text-sm text-white font-figtree font-semibold truncate">
                     {item.category}
                   </p>
