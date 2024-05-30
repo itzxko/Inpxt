@@ -73,8 +73,8 @@ const Navbar = () => {
       <div
         className={
           !sidebar
-            ? "fixed flex bg-[#faffff] h-full w-3/4 top-[-100%] ease-in-out duration-500 items-start justify-center p-12 shadow-xl z-[2]"
-            : "fixed flex bg-[#faffff] h-full w-3/4 top-0 ease-in-out duration-500 items-start justify-center p-12 shadow-xl z-[2]"
+            ? "fixed flex bg-[#FAF5FF] lg:hidden h-full w-3/4 top-[-100%] ease-in-out duration-500 items-start justify-center p-12 shadow-xl z-[2]"
+            : "fixed flex bg-[#FAF5FF] lg:hidden h-full w-3/4 top-0 ease-in-out duration-500 items-start justify-center p-12 shadow-xl z-[2]"
         }
       >
         <div className="flex flex-col items-start justify-center w-full">

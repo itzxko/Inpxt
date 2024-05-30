@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { GiDeadWood } from "react-icons/gi";
 import {
@@ -8,10 +9,11 @@ import {
   TbBrandDiscord,
 } from "react-icons/tb";
 import { IoCaretDown, IoCaretUp } from "react-icons/io5";
-import data from "../JSON/Accessories.json";
-import work from "../JSON/Scrollables.json";
+import Keyboard from "../JSON/Accessories.json";
+import Mouse from "../JSON/Scrollables.json";
 
 const Footer = () => {
+  const Navigate = useNavigate();
   const [works, setWorks] = useState(false);
   const [accessories, setAccessories] = useState(false);
 
@@ -22,6 +24,14 @@ const Footer = () => {
   const openAccessories = () => {
     setAccessories(!accessories);
     setWorks(false);
+  };
+
+  const handleMouseClicked = (id) => {
+    Navigate(`/mouse/${id}`);
+  };
+
+  const handleKeyboardClicked = (id) => {
+    Navigate(`/keyboard/${id}`);
   };
 
   return (
@@ -48,7 +58,7 @@ const Footer = () => {
                     />
                   )}
                 </div>
-                {work.map((work, index) => (
+                {Mouse.map((mouse, index) => (
                   <div
                     className={
                       works === false
@@ -56,12 +66,13 @@ const Footer = () => {
                         : "flex items-center justify-start w-full"
                     }
                     key={index}
+                    onClick={() => handleMouseClicked(mouse.id)}
                   >
                     <p
                       className="text-sm font-figtree font-normal text-gray-400 hover:text-white ease-in-out duration-500 cursor-pointer capitalize truncate"
                       key={index}
                     >
-                      {work.category}
+                      {mouse.category}
                     </p>
                   </div>
                 ))}
@@ -81,7 +92,7 @@ const Footer = () => {
                     />
                   )}
                 </div>
-                {data.map((item, index) => (
+                {Keyboard.map((keyboard, index) => (
                   <div
                     className={
                       accessories === false
@@ -89,12 +100,13 @@ const Footer = () => {
                         : "flex w-full items-center justify-start"
                     }
                     key={index}
+                    onClick={() => handleKeyboardClicked(keyboard.id)}
                   >
                     <p
                       className="text-sm font-figtree font-normal text-gray-400 hover:text-white ease-in-out duration-500 cursor-pointer capitalize truncate"
                       key={index}
                     >
-                      {item.category}
+                      {keyboard.category}
                     </p>
                   </div>
                 ))}
