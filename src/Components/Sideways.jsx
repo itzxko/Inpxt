@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Data from "../JSON/Scrollables.json";
 import { BiMouseAlt } from "react-icons/bi";
 
@@ -11,6 +12,7 @@ import {
 const Sideways = () => {
   const containerRef = useRef(null);
   const [hoverIndex, setHoverIndex] = useState(null);
+  const navigate = useNavigate();
 
   const handleScrollRight = (scrollOffset) => {
     if (containerRef.current) {
@@ -22,6 +24,10 @@ const Sideways = () => {
     if (containerRef.current) {
       containerRef.current.scrollLeft -= scrollOffset;
     }
+  };
+
+  const handleProductClick = (id) => {
+    navigate(`/mouse/${id}`);
   };
 
   return (
@@ -57,6 +63,7 @@ const Sideways = () => {
                 key={index}
                 onMouseEnter={() => setHoverIndex(index)}
                 onMouseLeave={() => setHoverIndex(null)}
+                onClick={() => handleProductClick(data.id)}
               >
                 <img
                   src={data.src}

@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { RxKeyboard } from "react-icons/rx";
 import accessories from "../JSON/Accessories.json";
 import {
@@ -7,6 +8,7 @@ import {
 } from "react-icons/md";
 
 const Accessories = () => {
+  const Navigate = useNavigate();
   const containerRef = useRef(null);
   const [hoverIndex, setHoverIndex] = useState(null);
 
@@ -20,6 +22,10 @@ const Accessories = () => {
     if (containerRef.current) {
       containerRef.current.scrollLeft -= scrollOffset;
     }
+  };
+
+  const handleProductClick = (id) => {
+    Navigate(`/keyboard/${id}`);
   };
 
   return (
@@ -52,11 +58,12 @@ const Accessories = () => {
                 key={index}
                 onMouseEnter={() => setHoverIndex(index)}
                 onMouseLeave={() => setHoverIndex(null)}
+                onClick={() => handleProductClick(item.id)}
               >
                 <img
                   src={item.src}
                   alt="/"
-                  className="object-cover object-start h-full w-full hover:scale-110 ease-in-out duration-500"
+                  className="object-cover object-center h-full w-full hover:scale-110 ease-in-out duration-500"
                 />
                 <div className="absolute bg-gradient-to-t from-black/10 via-black/0 to-black/50 w-full h-full pointer-events-none"></div>
                 <div className="w-full absolute capitalize top-0 text-start p-6 pointer-events-none">

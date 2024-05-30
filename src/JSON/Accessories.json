@@ -2,31 +2,43 @@
   {
     "id": 1,
     "category": "WS Freya",
-    "src": "https://shop.wuquestudio.com/cdn/shop/files/1_6e0080b9-98ab-439a-b58b-62d69c113016.jpg?v=1706836177&width=1296"
+    "desc": "In mythology, Freya is associated with various elements: beauty, love, war, fertility, wealth, and magic, to name a few. These elements serve as her symbols. This multifaceted goddess happens to embody what people in today's society pursue—power, wealth, beauty, and skills. However, in mythology, she sacrificed everything for the sake of peace, willingly becoming a hostage and agreeing with her enemies to cease fighting. Freya's precious qualities are the reason we chose her as the core inspiration. In designing her image, we drew upon the characteristics of various female figures from different mythological systems, blending their traits to create a unique, gentle, and resilient representation of Freya.",
+    "src": "https://shop.wuquestudio.com/cdn/shop/files/1_6e0080b9-98ab-439a-b58b-62d69c113016.jpg?v=1706836177&width=1296",
+    "price": 369.99
   },
   {
     "id": 2,
     "category": "WS Mammoth 75",
-    "src": "https://ucarecdn.com/e382d2c7-badf-4bf6-aa05-27f0cfe9cedc/-/format/auto/-/preview/3000x3000/-/quality/lighter/DSCF4560%20_1_-%E5%B7%B2%E5%90%8C%E6%84%8F.jpg"
+    "desc": "This keyboard is a gasket mounted 75% with exploded arrow keys and a large knob. It is being offered in four colors, four bottom materials/finishes, and with 3 PCB options available as addons. Plenty of options to make this keyboard truly yours!  The plate PORON foam is the same size as the plate, and it will touch the entire bottom case to achieve a stable typefeel. There is an adhesive PORON sheet pre-installed under the PCB for a deeper, more pleasant sound. Each kit comes with an aluminum knurled knob with a CNC engraved pattern, and a plain brass knob with a radial brushed finish. Knobs have a magnetic base to make them much easier to swap out.",
+    "src": "https://ucarecdn.com/e382d2c7-badf-4bf6-aa05-27f0cfe9cedc/-/format/auto/-/preview/3000x3000/-/quality/lighter/DSCF4560%20_1_-%E5%B7%B2%E5%90%8C%E6%84%8F.jpg",
+    "price": 460.0
   },
   {
     "id": 3,
     "category": "WS Bakeneko 60",
-    "src": "https://shop.wuquestudio.com/cdn/shop/products/2_d00bc34f-cc60-4945-b42b-d0115da14198.jpg?v=1645086105"
+    "desc": "Originally designed by kkatano, the Bakeneko60 is an open-source keyboard featuring an o-ring gasket. An o-ring between the plate and PCB provides friction to hold the plate/PCB assembly in the one-piece case. Cutouts on the PCB allow the o-ring to rest on the mounting points built into the case. The result is a bouncy typing feel with a great sound profile. The Bakeneko60 features a few key changes from kkatano's original design: We closed the bottom holes, added cutouts to the plate (to allow for assembly removal), and modified the case to be made using a casting process. We also designed our own PCBs (hotswap & solder) with multiple layout support.",
+    "src": "https://shop.wuquestudio.com/cdn/shop/products/2_d00bc34f-cc60-4945-b42b-d0115da14198.jpg?v=1645086105",
+    "price": 65.0
   },
   {
     "id": 4,
     "category": "WS Ikki68",
-    "src": "https://shop.wuquestudio.com/cdn/shop/products/cover-ikki68-polaris_95c31c5f-b7cf-429c-82c7-8a57738f7829.jpg?v=1597884957"
+    "desc": "Ikki68 Aurora is an affordable, injection molded, polycarbonate case, gasket-mount keyboard kit from Wuque Studio, the people behind Ikki68, OA Switches and more! Every Aurora comes with a multi-layout, hot swap PCB powered by QMK and VIA. You can choose any or all of the following: split backspace, split right shift, split left shift, split spacebars and ISO enter...no soldering required! The Aurora uses a variable gasket structure where you can choose how many mounting points to use in order to adjust the amount of bounce / firmness to your liking. You can also customize the keyboard with one of many extra badge designs in several different colors!",
+    "src": "https://shop.wuquestudio.com/cdn/shop/products/cover-ikki68-polaris_95c31c5f-b7cf-429c-82c7-8a57738f7829.jpg?v=1597884957",
+    "price": "TBA"
   },
   {
     "id": 5,
     "category": "WS Ikki 65 Aurora",
-    "src": "https://shop.wuquestudio.com/cdn/shop/products/2_2a52cbdb-8715-4e8c-8429-60b75b2692fa.jpg?v=1626102090"
+    "desc": "Variable gasket mount structure. Remove some or all of the gasket chips to change from firm to bouncy. Both Silicone and Poron gaskets are included to fine tune the experience even further! Personalize your Aurora even further with the use of Logo Chips! The little cutout above the right Arrow Key has LEDs underneath. Cut your own design onto a piece of thick paper and put over the hole to see the light shine through. You can even 3D print plastic chips, laser cut other materials as well. The Aurora will come with one Wuque Studio branded chip, and a blank chip to cover the cutout in case you do not want to use it. ",
+    "src": "https://shop.wuquestudio.com/cdn/shop/products/2_2a52cbdb-8715-4e8c-8429-60b75b2692fa.jpg?v=1626102090",
+    "price": 185.0
   },
   {
     "id": 6,
     "category": "WS Ginko65",
-    "src": "https://shop.wuquestudio.com/cdn/shop/products/Ginkgo65_Render03a.png?v=1632125398"
+    "desc": "Ginkgo65 is an isolation gasket mount 65% w/ daughterboard. Designed and produced by M•ONE, brought to you by Wuque Studio. Isolation gasket mount 65% w/ daughterboard. Designed and produced by M•ONE, brought to you by Wuque Studio. The multi-layout plates work with both hot-swap and solder PCBs. These are limited quantity in-stock extras. All items ship in 1-3 business days.",
+    "src": "https://shop.wuquestudio.com/cdn/shop/products/Ginkgo65_Render03a.png?v=1632125398",
+    "price": 249.0
   }
 ]

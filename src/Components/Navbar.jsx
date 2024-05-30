@@ -2,17 +2,16 @@ import React from "react";
 import { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Contact from "../Components/Modal/Contact";
+import Cart from "./Cart";
 
 //importing icons
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
 import { BiMouseAlt } from "react-icons/bi";
-import { GiDeadWood } from "react-icons/gi";
 import { IoMailOutline } from "react-icons/io5";
-
 import { RxKeyboard } from "react-icons/rx";
-
 import { GoMail } from "react-icons/go";
+import { MdOutlineShoppingBag } from "react-icons/md";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -40,7 +39,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            <GiDeadWood />
+            <BiMouseAlt />
           </Link>
           <div
             className="flex lg:hidden items-center justify-center p-2 text-2xl cursor-pointer text-white"
@@ -67,19 +66,7 @@ const Navbar = () => {
             >
               Keyboards
             </Link>
-            <div
-              className="bg-[#FAF5FF] px-4 py-2 text-black rounded overflow-hidden cursor-pointer group ease-in-out duration-500"
-              onClick={handleContact}
-            >
-              <div className="relative flex items-center justify-center px-6 py-2 ">
-                <div className="absolute text-lg text-[#2f2f2f] right-[-120%] group-hover:right-[16px] ease-in-out duration-500">
-                  <IoMailOutline />
-                </div>
-                <div className="absolute right-[2px] cursor-pointer group-hover:right-[200%] ease-in-out duration-500">
-                  <p className="text-xs text-[#2f2f2f] font-normal">Contact</p>
-                </div>
-              </div>
-            </div>
+            <Cart />
           </div>
         </div>
       </div>
