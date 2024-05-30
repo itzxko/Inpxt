@@ -4,13 +4,13 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Contact from "../Components/Modal/Contact";
 
 //importing icons
-import { BiMenuAltLeft } from "react-icons/bi";
+import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
-import { GoBriefcase } from "react-icons/go";
+import { BiMouseAlt } from "react-icons/bi";
 import { GiDeadWood } from "react-icons/gi";
 import { IoMailOutline } from "react-icons/io5";
 
-import { GoCreditCard } from "react-icons/go";
+import { RxKeyboard } from "react-icons/rx";
 
 import { GoMail } from "react-icons/go";
 
@@ -46,29 +46,37 @@ const Navbar = () => {
             className="flex lg:hidden items-center justify-center p-2 text-2xl cursor-pointer text-white"
             onClick={handleSidebar}
           >
-            <BiMenuAltLeft />
+            <BiMenuAltRight />
           </div>
           <div className="hidden lg:flex gap-4 p-2 font-figtree text-white font-normal text-sm items-center justify-center">
-            <p className="cursor-pointer">Pricing</p>
             <Link
-              to="works"
+              to="mice"
               smooth={true}
               duration={500}
               offset={-80}
               className="cursor-pointer"
             >
-              Works
+              Mice
+            </Link>
+            <Link
+              to="keyboards"
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="cursor-pointer"
+            >
+              Keyboards
             </Link>
             <div
-              className="bg-[#2f2f2f] px-4 py-2 text-black rounded overflow-hidden cursor-pointer group ease-in-out duration-500"
+              className="bg-[#FAF5FF] px-4 py-2 text-black rounded overflow-hidden cursor-pointer group ease-in-out duration-500"
               onClick={handleContact}
             >
               <div className="relative flex items-center justify-center px-6 py-2 ">
-                <div className="absolute text-lg text-white right-[-120%] group-hover:right-[16px] ease-in-out duration-500">
+                <div className="absolute text-lg text-[#2f2f2f] right-[-120%] group-hover:right-[16px] ease-in-out duration-500">
                   <IoMailOutline />
                 </div>
                 <div className="absolute right-[2px] cursor-pointer group-hover:right-[200%] ease-in-out duration-500">
-                  <p className="text-xs text-white font-normal">Contact</p>
+                  <p className="text-xs text-[#2f2f2f] font-normal">Contact</p>
                 </div>
               </div>
             </div>
@@ -92,26 +100,30 @@ const Navbar = () => {
           <div className="flex flex-col gap-2 items-start justify-center w-full">
             <Link
               className="flex flex-row items-center justify-center gap-4 cursor-pointer py-4 "
-              to="/"
+              to="mice"
+              smooth={true}
+              duration={500}
+              offset={-80}
             >
               <div className="text-2xl">
-                <GoCreditCard />
+                <BiMouseAlt />
               </div>
               <div className="flex items-center justify-center w-full truncate">
-                <p className="text-sm font-normal">Pricing</p>
+                <p className="text-sm font-normal">Mice</p>
               </div>
             </Link>
             <Link
               className="flex flex-row items-center justify-center gap-4 cursor-pointer py-4 "
-              to="works"
+              to="keyboards"
               smooth={true}
               duration={500}
+              offset={-80}
             >
               <div className="text-2xl">
-                <GoBriefcase />
+                <RxKeyboard />
               </div>
               <div className="flex items-center justify-center w-full truncate">
-                <p className="text-sm font-normal">My Works</p>
+                <p className="text-sm font-normal">Keyboards</p>
               </div>
             </Link>
             <div
